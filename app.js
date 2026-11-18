@@ -68,8 +68,8 @@
 
   var footer = [];
   if (C.licenseNo) footer.push("保險業務員登錄字號：" + C.licenseNo);
-  if (C.company) footer.push("所屬公司：" + C.company);
-  footer.push("© " + new Date().getFullYear() + " " + (fullName || ""));
+  if (C.insurer) footer.push("所屬公司：" + C.insurer);
+  footer.push("© " + new Date().getFullYear() + " " + (C.company || fullName || ""));
   $("footer").innerHTML = footer.map(escapeHtml).join("<br>");
 
   // ---------- 3. 頭像（同時縮小成 vCard 用的 base64） ----------
@@ -149,7 +149,7 @@
   function download() {
     var vcf = buildVCard();
     // 檔名用英文，部分瀏覽器會忽略中文檔名
-    var slug = (C.englishName || "").trim().replace(/[^A-Za-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    var slug = (C.englishName || C.company || "").trim().replace(/[^A-Za-z0-9]+/g, "-").replace(/^-|-$/g, "");
     var filename = (slug || "contact") + ".vcf";
 
     if (isIOS) {

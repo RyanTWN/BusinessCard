@@ -7,19 +7,20 @@
  */
 window.CARD_CONFIG = {
   // ── 姓名 ──
-  lastName: "王",            // 姓
-  firstName: "大明",         // 名
-  englishName: "Daming Wang", // 英文名（選填）
+  lastName: "黃",            // 姓
+  firstName: "冠維",         // 名
+  englishName: "",          // 英文名（選填，也會用在下載檔名）
 
   // ── 職稱與公司 ──
   title: "家庭科技與風險規劃顧問",
-  company: "【所屬公司／個人品牌】",
+  company: "IRAIT Advisory",          // 品牌／公司名稱
+  insurer: "",                         // 所屬保險公司或保經代（頁尾合規資訊用）
 
   // ── 聯絡方式 ──
-  phone: "0912345678",                 // 手機，存入通訊錄用
-  email: "you@example.com",
-  lineUrl: "https://line.me/R/ti/p/@yourid", // LINE 官方帳號或個人連結
-  website: "https://example.com",      // 你的 LINKGOODS 頁面網址
+  phone: "0988600814",                 // 手機，存入通訊錄用
+  email: "irait.advisory@gmail.com",
+  lineUrl: "https://line.me/R/ti/p/@736mtiyo", // LINE 官方帳號或個人連結
+  website: "",                         // 你的 LINKGOODS 頁面網址（有了再填）
 
   // ── 頁面顯示文字 ──
   tagline: "AI 應用 × 智能家居 × 保險規劃",
@@ -29,7 +30,7 @@ window.CARD_CONFIG = {
   note: "AI 應用・智能家居・保險規劃",
 
   // ── 合規資訊（顯示在頁尾，也會寫入備註） ──
-  licenseNo: "【保險業務員登錄字號】",
+  licenseNo: "",                       // 保險業務員登錄字號（上線前務必填寫）
 
   // ── 頭像 ──
   // 把照片放到 assets/avatar.jpg（正方形、建議 600×600 以上）
@@ -37,6 +38,6 @@ window.CARD_CONFIG = {
   avatar: "assets/avatar.jpg",
 
   // ── 返回按鈕 ──
-  backUrl: "https://example.com",      // 通常填你的 LINKGOODS 頁面
+  backUrl: "",                         // 通常填你的 LINKGOODS 頁面
   backLabel: "← 回到我的主頁",
 };

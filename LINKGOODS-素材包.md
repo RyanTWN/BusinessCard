@@ -10,10 +10,10 @@
 
 | 項目 | 規格 / 說明 | 你的資料 |
 |---|---|---|
-| 顯示名稱 | 中文＋英文，例：王大明 Daming | 【　】 |
-| 手機 | 09xx-xxx-xxx | 【　】 |
-| Email | | 【　】 |
-| LINE | 官方帳號 `@xxxx` 或個人 ID | 【　】 |
+| 顯示名稱 | 中文＋品牌 | 黃冠維｜IRAIT Advisory |
+| 手機 | 09xx-xxx-xxx | 0988-600-814 |
+| Email | | irait.advisory@gmail.com |
+| LINE | 官方帳號 `@xxxx` 或個人 ID | @736mtiyo |
 | 保險登錄字號 | 業務員登錄證字號 | 【　】 |
 | 所屬公司 | 保險公司或保經代名稱 | 【　】 |
 | 頭像 | 正方形 1000×1000 px 以上、真人半身照、背景單純 | 【檔案】 |
@@ -44,7 +44,7 @@
 
 **名稱**
 ```
-【顧問姓名】｜【英文名】
+黃冠維｜IRAIT Advisory
 ```
 
 **職稱 / 副標**（擇一）
@@ -79,10 +79,10 @@ AI 應用 × 智能家居 × 保險規劃
 
 - **LINE 官方帳號，帶預填訊息**（推薦，客人點了直接傳訊給你）：
   ```
-  https://line.me/R/oaMessage/@【官方帳號ID】/?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E9%A0%90%E7%B4%84%E5%85%8D%E8%B2%BB%E5%AE%B6%E5%BA%AD%E5%81%A5%E6%AA%A2
+  https://line.me/R/oaMessage/@736mtiyo/?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E9%A0%90%E7%B4%84%E5%85%8D%E8%B2%BB%E5%AE%B6%E5%BA%AD%E5%81%A5%E6%AA%A2
   ```
   （預填文字為「你好，我想預約免費家庭健檢」）
-- **LINE 個人帳號**：`https://line.me/ti/p/~【LINE ID】`
+- **LINE 個人帳號**：`https://line.me/R/ti/p/@736mtiyo`
 - **Calendly / Google 日曆預約頁**：貼上你的預約頁網址
 - **Google 表單**：見第 6 節範本
 
@@ -90,9 +90,9 @@ AI 應用 × 智能家居 × 保險規劃
 
 | 標題 | 連結 / 設定 |
 |---|---|
-| `💬 加入 LINE 諮詢` | `https://line.me/R/ti/p/@【官方帳號ID】` |
+| `💬 加入 LINE 諮詢` | `https://line.me/R/ti/p/@736mtiyo` |
 | `📇 儲存我的聯絡資訊` | 使用 LINKGOODS 的「電子名片 / 聯絡資訊」功能（若有），欄位見第 5 節 |
-| `📞 直接來電` | `tel:【09xxxxxxxx】` |
+| `📞 直接來電` | `tel:0988600814` |
 
 ### 3-3 區塊標題：`📌 家庭專屬解決方案`
 
@@ -118,9 +118,9 @@ AI 應用 × 智能家居 × 保險規劃
 
 **各服務的 LINE 預填連結**（`@ID` 換成你的官方帳號）：
 ```
-A: https://line.me/R/oaMessage/@【ID】/?text=%E6%83%B3%E4%BA%86%E8%A7%A3AI%E6%95%88%E7%8E%87%E5%8D%87%E7%B4%9A%E5%8C%85
-B: https://line.me/R/oaMessage/@【ID】/?text=%E6%83%B3%E4%BA%86%E8%A7%A3%E6%99%BA%E6%85%A7%E5%AE%89%E9%98%B2%E8%88%87%E9%95%B7%E7%85%A7%E5%AE%88%E8%AD%B7%E5%AE%85
-C: https://line.me/R/oaMessage/@【ID】/?text=%E6%83%B3%E9%A0%90%E7%B4%84%E4%BF%9D%E5%96%AE%E5%81%A5%E6%AA%A2
+A: https://line.me/R/oaMessage/@736mtiyo/?text=%E6%83%B3%E4%BA%86%E8%A7%A3AI%E6%95%88%E7%8E%87%E5%8D%87%E7%B4%9A%E5%8C%85
+B: https://line.me/R/oaMessage/@736mtiyo/?text=%E6%83%B3%E4%BA%86%E8%A7%A3%E6%99%BA%E6%85%A7%E5%AE%89%E9%98%B2%E8%88%87%E9%95%B7%E7%85%A7%E5%AE%88%E8%AD%B7%E5%AE%85
+C: https://line.me/R/oaMessage/@736mtiyo/?text=%E6%83%B3%E9%A0%90%E7%B4%84%E4%BF%9D%E5%96%AE%E5%81%A5%E6%AA%A2
 ```
 
 ### 3-4 區塊標題：`💡 實戰案例與知識分享`
@@ -140,13 +140,13 @@ C: https://line.me/R/oaMessage/@【ID】/?text=%E6%83%B3%E9%A0%90%E7%B4%84%E4%BF
 可以貼到 Notion 公開頁面、IG 精選動態或 Threads 置頂貼文，再從按鈕連過去。
 
 ```
-【顧問姓名】｜家庭科技與風險規劃顧問
+黃冠維｜家庭科技與風險規劃顧問
 
 ▍專業背景
 ・資訊技術：【年資／經歷，例：10 年系統整合與軟體開發】
 ・智能家居：【例：Home Assistant 整合、XX 戶全屋智能導入經驗】
 ・AI 應用：【例：企業／家庭 AI 自動化流程設計】
-・保險規劃：【所屬公司】業務員
+・保險規劃：【所屬保險公司】業務員
 
 ▍服務理念
 先用科技降低風險發生的機率，再用保險承接無法避免的損失。
@@ -165,14 +165,14 @@ C: https://line.me/R/oaMessage/@【ID】/?text=%E6%83%B3%E9%A0%90%E7%B4%84%E4%BF
 
 | 欄位 | 內容 |
 |---|---|
-| 姓名 | 【中文名】 |
-| 英文名 | 【英文名】 |
+| 姓名 | 黃冠維 |
+| 英文名 | （選填） |
 | 職稱 | 家庭科技與風險規劃顧問 |
-| 公司 | 【所屬公司 / 個人品牌】 |
-| 手機 | 【　】 |
-| Email | 【　】 |
+| 公司 | IRAIT Advisory |
+| 手機 | 0988600814 |
+| Email | irait.advisory@gmail.com |
 | 網站 | 【你的 LINKGOODS 頁面網址】 |
-| LINE | `https://line.me/R/ti/p/@【ID】` |
+| LINE | `https://line.me/R/ti/p/@736mtiyo` |
 | 備註 | AI 應用・智能家居・保險規劃｜保險登錄字號【　】 |
 
 若 LINKGOODS 沒有這個功能，可以改用「素材包＋自建補充頁」方案，由這個 repo 產生 `.vcf` 下載連結。
@@ -190,7 +190,7 @@ C: https://line.me/R/oaMessage/@【ID】/?text=%E6%83%B3%E9%A0%90%E7%B4%84%E4%BF
 5. 想先讓我知道的狀況（段落，選填）
 6. **個資同意（必填核取方塊）**：
    ```
-   本人同意【顧問姓名】蒐集上述資料，僅用於本次諮詢聯繫，不作其他用途，並可隨時要求刪除。
+   本人同意黃冠維蒐集上述資料，僅用於本次諮詢聯繫，不作其他用途，並可隨時要求刪除。
    ```
 
 ---
@@ -201,12 +201,12 @@ C: https://line.me/R/oaMessage/@【ID】/?text=%E6%83%B3%E9%A0%90%E7%B4%84%E4%BF
 
 | 平台 | 網址格式 |
 |---|---|
-| LINE | `https://line.me/R/ti/p/@【ID】` |
+| LINE | `https://line.me/R/ti/p/@736mtiyo` |
 | Threads | `https://www.threads.net/@【帳號】` |
 | Instagram | `https://www.instagram.com/【帳號】` |
 | Facebook | `https://www.facebook.com/【帳號】` |
 | YouTube | `https://www.youtube.com/@【帳號】` |
-| Email | `mailto:【email】` |
+| Email | `mailto:irait.advisory@gmail.com` |
 
 ---
 
@@ -214,7 +214,7 @@ C: https://line.me/R/oaMessage/@【ID】/?text=%E6%83%B3%E9%A0%90%E7%B4%84%E4%BF
 
 ```
 保險業務員登錄字號：【　】｜所屬公司：【　】
-© 2026 【顧問姓名／品牌名稱】. All Rights Reserved.
+© 2026 IRAIT Advisory. All Rights Reserved.
 ```
 
 ---

@@ -29,7 +29,7 @@ window.CARD_CONFIG = {
     "#AI應用開發",
     "#智能家居規劃",
     "#資訊系統整合",
-    "#全方位財務安全規劃",
+    { text: "#全方位財務安全規劃", url: "heritage/" },
     { text: "#五感藍圖", url: "blueprint/" },
   ],
 

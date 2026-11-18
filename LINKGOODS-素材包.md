@@ -52,7 +52,7 @@
 家庭科技與風險規劃顧問
 ```
 ```
-AI 應用 × 智能家居 × 財務安全
+AI 應用 × 智能家居 × 財務安全 × 恆產基業
 ```
 
 **簡介（Bio）**
@@ -188,7 +188,7 @@ F: https://line.me/R/oaMessage/@736mtiyo/?text=%E6%83%B3%E4%BA%86%E8%A7%A3%E6%81
 | Email | irait.advisory@gmail.com |
 | 網站 | 【你的 LINKGOODS 頁面網址】 |
 | LINE | `https://line.me/R/ti/p/@736mtiyo` |
-| 備註 | AI 應用・智能家居・財務安全｜保險登錄字號【　】 |
+| 備註 | AI 應用・智能家居・財務安全・恆產基業｜保險登錄字號【　】 |
 
 若 LINKGOODS 沒有這個功能，可以改用「素材包＋自建補充頁」方案，由這個 repo 產生 `.vcf` 下載連結。
 

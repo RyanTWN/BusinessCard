@@ -29,7 +29,14 @@
   $("en").textContent = C.englishName || "";
   $("title").textContent = C.title || "";
   $("company").textContent = C.company || "";
-  $("tagline").textContent = C.tagline || "";
+  // 副標：每個項目不拆開，只在 × 處換行
+  (C.tagline || "").split(/\s*×\s*/).forEach(function (part, i) {
+    if (i) $("tagline").appendChild(document.createTextNode(" × "));
+    var span = document.createElement("span");
+    span.className = "nowrap";
+    span.textContent = part;
+    $("tagline").appendChild(span);
+  });
 
   (C.tags || []).forEach(function (t) {
     var li = document.createElement("li");

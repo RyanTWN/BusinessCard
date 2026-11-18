@@ -1,0 +1,49 @@
+/* 恆產基業頁面：以五感藍圖樣式為基礎，改用沉穩的金色調 */
+
+.hr-eyebrow { color: #FBBF24; }
+
+.hr-title {
+  background: linear-gradient(135deg, #FDE68A, #F59E0B 50%, #34D399) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+
+.hr-stages {
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+  margin-top: 24px;
+}
+.hr-stages a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 12px 4px;
+  border-radius: 14px;
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+}
+.hr-stages a:hover, .hr-stages a:focus-visible { border-color: rgba(245, 158, 11, 0.6); outline: none; }
+.hr-stages span { font-size: 22px; }
+.hr-stages b { font-size: 15px; }
+.hr-stages small { font-size: 11px; color: var(--muted); }
+.hr-stages i {
+  align-self: center;
+  font-style: normal;
+  color: #FBBF24;
+  font-size: 18px;
+}
+
+.stage li a { color: var(--accent); }
+
+.stage-gold {
+  border-color: rgba(245, 158, 11, 0.45);
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.08), rgba(15, 23, 42, 0.5));
+}
+.stage-gold .sense-icon { background: rgba(245, 158, 11, 0.12); border-color: rgba(245, 158, 11, 0.45); }
+.stage-gold .sense-head p { color: #FBBF24; }
+.stage-gold li::before { background: #FBBF24; }

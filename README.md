@@ -1,66 +1,64 @@
-# 數位名片：vCard 下載頁
+# IRAIT Advisory 數位名片
 
-一個單頁網站，讓客戶一鍵把你的聯絡資訊存進手機通訊錄。
-可以搭配 LINKGOODS 使用：在 LINKGOODS 新增一顆「📇 儲存我的聯絡資訊」按鈕，連到這個頁面。
+網址：**https://card.irait.win/**
 
-- 純前端，不需要後端或資料庫，免費部署在 GitHub Pages
-- 所有個人資料集中在 `config.js`
-- 從 LINE 打開時，會自動改用外部瀏覽器開啟（LINE 內建瀏覽器無法存聯絡人）
+- 純前端，不需要後端或資料庫，部署在 Cloudflare Pages（免費）
+- 所有個人資料集中在 `public/config.js`
+- 從 LINE 打開時，會自動改用外部瀏覽器（LINE 內建瀏覽器無法存聯絡人）
 - 從 IG、FB、Threads 打開時，頁面會提示「改用瀏覽器開啟」
-- 有放頭像的話，會自動縮小並一起存進聯絡人照片
+- 頭像會自動縮小，一起存進聯絡人照片
 
-LINKGOODS 的文案素材請看 [`LINKGOODS-素材包.md`](LINKGOODS-素材包.md)。
+## 目錄結構
 
-## 檔案說明
-
-| 檔案 | 用途 | 需要改嗎 |
-|---|---|---|
-| `config.js` | 姓名、電話、Email、LINE、登錄字號等資料 | ✅ 要改 |
-| `assets/avatar.jpg` | 頭像（正方形，600×600 以上） | ✅ 自行放入 |
-| `index.html` / `style.css` / `app.js` | 頁面、樣式、程式 | 不用 |
-| `blueprint/index.html` | 「五感藍圖」服務介紹頁，文案直接寫在這個檔案裡 | 改文案時才需要 |
-| `heritage/index.html` | 「恆產基業」服務介紹頁 | 改文案時才需要 |
+```
+public/                 ← 只有這個資料夾會發布到網站
+  index.html            名片頁（儲存聯絡人）
+  config.js             ✅ 個人資料：要改資料就改這個檔案
+  app.js / style.css    名片頁的程式與樣式
+  assets/avatar.jpg     頭像／Logo
+  blueprint/            五感藍圖服務頁   → /blueprint/
+  heritage/             恆產基業服務頁   → /heritage/
+LINKGOODS-素材包.md      LINKGOODS 後台文案（不會發布）
+README.md               本說明（不會發布）
+```
 
 ## 1. 修改個人資料
 
-在 GitHub 網頁上打開 `config.js`，點右上角鉛筆圖示（Edit）。
-修改引號 `""` 裡的文字後，按 **Commit changes**。
+在 GitHub 網頁打開 `public/config.js`，點右上角鉛筆圖示（Edit），
+修改引號 `""` 裡的文字後，按 **Commit changes**。約 1 分鐘後網站自動更新。
 
 - 不需要的欄位留空 `""`，就不會出現在頁面和名片上
-- 頭像：進入 `assets` 資料夾，用 **Add file → Upload files** 上傳，檔名要是 `avatar.jpg`
+- 換頭像：進入 `public/assets`，上傳新圖並命名為 `avatar.jpg`
+- 可點擊的標籤寫成 `{ text: "#文字", url: "網址" }`
+- 服務頁的文案直接寫在 `public/blueprint/index.html`、`public/heritage/index.html` 裡
 
-## 2. 免費部署到 GitHub Pages
+## 2. Cloudflare Pages 設定（第一次設定才需要）
 
-1. 打開 repo 的 **Settings → Pages**
-2. Source 選 **Deploy from a branch**
-3. Branch 選放程式碼的分支（例如 `main`），資料夾選 `/ (root)`，按 **Save**
-4. 等 1～2 分鐘，網址會顯示在同一頁，格式像這樣：
-   `https://<你的帳號>.github.io/<repo 名稱>/`
+1. Cloudflare 後台 → **Workers & Pages** → **Create** → **Pages** 分頁 → **Connect to Git**
+2. 選擇 repo `RyanTWN/BusinessCard`
+3. 建置設定：
+   - Production branch：目前程式碼所在的分支
+   - Framework preset：**None**
+   - Build command：**留空**
+   - Build output directory：`public`
+4. **Save and Deploy**
+5. 專案 → **Custom domains** → **Set up a custom domain** → 輸入 `card.irait.win`
 
-> GitHub Pages 免費方案只支援**公開（public）**的 repo。
+之後每次推送到 Production branch，Cloudflare 都會自動重新發布。
 
-之後每次修改 `config.js` 並 commit，網站會在 1～2 分鐘內自動更新。
+## 3. 常用網址
 
-## 3. 接到 LINKGOODS
+| 用途 | 網址 |
+|---|---|
+| 名片頁 | `https://card.irait.win/` |
+| NFC／QR Code（打開直接存聯絡人） | `https://card.irait.win/?download=1` |
+| 五感藍圖 | `https://card.irait.win/blueprint/` |
+| 恆產基業 | `https://card.irait.win/heritage/` |
 
-在 LINKGOODS 新增一顆按鈕：
-
-- 標題：`📇 儲存我的聯絡資訊`
-- 連結：上一步取得的 GitHub Pages 網址
-
-## 4. 進階：掃描或感應後直接存聯絡人
-
-網址後面加上 `?download=1`，打開頁面時會自動觸發儲存：
-
-```
-https://<你的帳號>.github.io/<repo 名稱>/?download=1
-```
-
-適合寫進 NFC 卡片，或做成「存聯絡人專用」的 QR Code。
-
-## 5. 本機預覽（選用）
+## 4. 本機預覽（選用）
 
 ```bash
+cd public
 python3 -m http.server 8000
 # 打開 http://localhost:8000
 ```
@@ -69,4 +67,4 @@ python3 -m http.server 8000
 
 - iPhone：分別用 Safari、LINE 打開，點「儲存到通訊錄」，確認會跳出聯絡人畫面
 - Android：分別用 Chrome、LINE 打開，確認檔案下載後能匯入
-- 打開存好的聯絡人，確認姓名、電話、LINE 連結和照片都正確
+- 打開存好的聯絡人，確認姓名、電話、LINE、網站和照片都正確

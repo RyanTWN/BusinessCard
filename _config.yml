@@ -1,4 +1,0 @@
-# GitHub Pages 設定：以下檔案不會發布到網站上
-exclude:
-  - "LINKGOODS-素材包.md"
-  - README.md

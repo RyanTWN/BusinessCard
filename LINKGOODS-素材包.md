@@ -255,7 +255,7 @@ F: https://line.me/R/oaMessage/@736mtiyo/?text=%E6%83%B3%E4%BA%86%E8%A7%A3%E6%81
 
 ## 10. 「五感藍圖」完整服務說明
 
-> 已做成網頁：`https://ryantwn.github.io/BusinessCard/blueprint/`，E 按鈕可直接連到這裡。
+> 已做成網頁：`https://card.irait.win/blueprint/`，E 按鈕可直接連到這裡。
 
 可貼到 Notion 公開頁面、IG 輪播貼文或 Threads 置頂貼文，再從 E 按鈕或「#五感藍圖」連過去。
 
@@ -329,7 +329,7 @@ F: https://line.me/R/oaMessage/@736mtiyo/?text=%E6%83%B3%E4%BA%86%E8%A7%A3%E6%81
 
 ## 11. 「恆產基業」完整服務說明
 
-> 已做成網頁：`https://ryantwn.github.io/BusinessCard/heritage/`，F 按鈕可直接連到這裡。
+> 已做成網頁：`https://card.irait.win/heritage/`，F 按鈕可直接連到這裡。
 
 ### 短版
 ```

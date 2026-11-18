@@ -21,7 +21,7 @@ window.CARD_CONFIG = {
   phone: "0988600814",                 // 手機，存入通訊錄用
   email: "irait.advisory@gmail.com",
   lineUrl: "https://line.me/R/ti/p/@736mtiyo", // LINE 官方帳號或個人連結
-  website: "",                         // 你的 LINKGOODS 頁面網址（有了再填）
+  website: "https://card.irait.win",   // 網站網址，會存進對方通訊錄
 
   // ── 頁面顯示文字 ──
   tagline: "AI 應用 × 智能家居 × 財務安全 × 恆產基業",

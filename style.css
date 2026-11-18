@@ -4,7 +4,7 @@
   --border: rgba(51, 65, 85, 0.5);
   --text: #F1F5F9;
   --muted: #94A3B8;
-  --accent: #38BDF8;
+  --accent: #34D399;
   --cta-from: #F59E0B;
   --cta-to: #EA580C;
   --cta-text: #0F172A;
@@ -64,7 +64,7 @@ body {
   height: 112px;
   border-radius: 50%;
   background: #1E293B center / cover no-repeat;
-  box-shadow: 0 0 0 3px var(--bg), 0 0 0 5px rgba(56, 189, 248, 0.6), 0 0 32px rgba(56, 189, 248, 0.35);
+  box-shadow: 0 0 0 3px var(--bg), 0 0 0 5px rgba(52, 211, 153, 0.6), 0 0 32px rgba(52, 211, 153, 0.35);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,8 +92,8 @@ h1 { font-size: 26px; margin: 0; letter-spacing: 0.02em; }
 .tags li {
   font-size: 12px;
   color: var(--accent);
-  border: 1px solid rgba(56, 189, 248, 0.35);
-  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(52, 211, 153, 0.35);
+  background: rgba(52, 211, 153, 0.08);
   border-radius: 999px;
   padding: 4px 10px;
 }
@@ -149,7 +149,7 @@ h1 { font-size: 26px; margin: 0; letter-spacing: 0.02em; }
   font-size: 15px;
   word-break: break-all;
 }
-.contacts a:hover { border-color: rgba(56, 189, 248, 0.5); }
+.contacts a:hover { border-color: rgba(52, 211, 153, 0.5); }
 .contacts .label { color: var(--muted); font-size: 12px; min-width: 40px; }
 
 .back {

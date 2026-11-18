@@ -78,7 +78,14 @@ h1 { font-size: 26px; margin: 0; letter-spacing: 0.02em; }
 .title { margin: 12px 0 0; font-weight: 600; color: var(--accent); font-size: 17px; letter-spacing: 0.04em; }
 .title .sep { margin: 0 0.6em; opacity: 0.5; font-weight: 400; }
 .tagline { margin: 6px 0 0; color: var(--muted); font-size: 14px; text-wrap: balance; }
-#company { margin-top: 2px; }
+#company {
+  margin-top: 4px;
+  font-size: 16px;            /* 比標語 17px 小一級 */
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #FBBF24;             /* 琥珀色 */
+  text-shadow: 0 0 12px rgba(245, 158, 11, 0.45);
+}
 .nowrap { white-space: nowrap; }
 .en:empty, .title:empty, .tagline:empty { display: none; }
 

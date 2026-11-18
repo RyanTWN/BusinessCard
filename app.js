@@ -33,7 +33,15 @@
 
   (C.tags || []).forEach(function (t) {
     var li = document.createElement("li");
-    li.textContent = t;
+    if (t && typeof t === "object") {
+      var a = document.createElement("a");
+      a.href = t.url;
+      a.textContent = t.text + " ›";
+      li.appendChild(a);
+      li.className = "link";
+    } else {
+      li.textContent = t;
+    }
     $("tags").appendChild(li);
   });
 

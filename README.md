@@ -18,6 +18,7 @@ LINKGOODS 的文案素材請看 [`LINKGOODS-素材包.md`](LINKGOODS-素材包.m
 | `config.js` | 姓名、電話、Email、LINE、登錄字號等資料 | ✅ 要改 |
 | `assets/avatar.jpg` | 頭像（正方形，600×600 以上） | ✅ 自行放入 |
 | `index.html` / `style.css` / `app.js` | 頁面、樣式、程式 | 不用 |
+| `blueprint/index.html` | 「五感藍圖」服務介紹頁，文案直接寫在這個檔案裡 | 改文案時才需要 |
 
 ## 1. 修改個人資料
 

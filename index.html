@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>儲存聯絡人</title>
+  <meta name="description" content="一鍵把聯絡資訊存進手機通訊錄">
+  <meta name="theme-color" content="#0F172A">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="儲存我的聯絡資訊">
+  <meta property="og:description" content="一鍵存入手機通訊錄">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <div id="inapp" class="notice" hidden>
+      <strong>請改用瀏覽器開啟</strong>
+      <span id="inapp-text">App 內建瀏覽器可能無法儲存聯絡人。請點右上角「⋯」，選擇「在瀏覽器中開啟」。</span>
+    </div>
+
+    <div class="avatar-wrap">
+      <div class="avatar" id="avatar" aria-hidden="true"></div>
+    </div>
+
+    <h1 id="name"></h1>
+    <p class="en" id="en"></p>
+    <p class="title" id="title"></p>
+    <p class="tagline" id="company"></p>
+    <p class="tagline" id="tagline"></p>
+    <ul class="tags" id="tags"></ul>
+
+    <button class="cta" id="save" type="button">
+      <span aria-hidden="true">📇</span> 儲存到通訊錄
+    </button>
+    <p class="hint" id="hint">iPhone：在跳出的畫面點「建立新聯絡人」<br>Android：開啟下載的檔案即可匯入</p>
+
+    <ul class="contacts" id="contacts"></ul>
+
+    <a class="back" id="back" hidden></a>
+
+    <footer id="footer"></footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

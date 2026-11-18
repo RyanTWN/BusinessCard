@@ -27,7 +27,20 @@
   document.title = fullName ? "儲存聯絡人｜" + fullName : "儲存聯絡人";
   $("name").textContent = fullName;
   $("en").textContent = C.englishName || "";
-  $("title").textContent = C.title || "";
+  // 標語（slogan）優先顯示；以 | 分段，每段不拆開換行
+  var headline = C.slogan || C.title || "";
+  headline.split(/\s*\|\s*/).forEach(function (part, i) {
+    if (i) {
+      var sep = document.createElement("span");
+      sep.className = "sep";
+      sep.textContent = "|";
+      $("title").appendChild(sep);
+    }
+    var span = document.createElement("span");
+    span.className = "nowrap";
+    span.textContent = part;
+    $("title").appendChild(span);
+  });
   $("company").textContent = C.company || "";
   // 副標：每個項目不拆開，只在 × 處換行
   (C.tagline || "").split(/\s*×\s*/).forEach(function (part, i) {
